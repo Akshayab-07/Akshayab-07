@@ -1,6 +1,6 @@
 ## Hi, Im Akshaya!
 
-I’m a Computer Science student at SRM Ramapuram currently studying in first year.<br/>
+I’m a Computer Science student at SRM Ramapuram completed first year.<br/>
 I enjoy learning new technologies and building things with code.<br/>
 Always curious and improving one step at a time.<br/>
 
