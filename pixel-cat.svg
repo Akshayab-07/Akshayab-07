@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="800" height="120" shape-rendering="crispEdges">
+  <rect width="800" height="120" rx="12" fill="#0d1117"/>
+
+  <g fill="#58a6ff">
+    <rect x="60" y="18" width="4" height="4"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" begin="0s" repeatCount="indefinite"/></rect>
+    <rect x="180" y="40" width="4" height="4"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" begin=".6s" repeatCount="indefinite"/></rect>
+    <rect x="320" y="14" width="4" height="4"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" begin="1.2s" repeatCount="indefinite"/></rect>
+    <rect x="460" y="36" width="4" height="4"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" begin=".3s" repeatCount="indefinite"/></rect>
+    <rect x="590" y="16" width="4" height="4"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" begin=".9s" repeatCount="indefinite"/></rect>
+    <rect x="720" y="38" width="4" height="4"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" begin="1.5s" repeatCount="indefinite"/></rect>
+  </g>
+  <g fill="#f0c674">
+    <rect x="120" y="26" width="4" height="4"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" begin="1s" repeatCount="indefinite"/></rect>
+    <rect x="400" y="24" width="4" height="4"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" begin=".2s" repeatCount="indefinite"/></rect>
+    <rect x="660" y="22" width="4" height="4"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" begin="1.7s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <line x1="0" y1="104" x2="800" y2="104" stroke="#30363d" stroke-width="4" stroke-dasharray="12 8">
+    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1s" repeatCount="indefinite"/>
+  </line>
+
+  <g transform="translate(350,60)">
+    <animateTransform attributeName="transform" type="translate" from="-70 60" to="830 60" dur="14s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" dur="0.5s" repeatCount="indefinite"/>
+      <g transform="scale(4)">
+        <g fill="#e8913a">
+          <animateTransform attributeName="transform" type="translate" values="0 0;0 -1;0 0" dur="0.6s" repeatCount="indefinite"/>
+          <rect x="-2" y="3" width="2" height="1"/>
+          <rect x="-3" y="1" width="1" height="3"/>
+        </g>
+        <g fill="#c97426">
+          <animateTransform attributeName="transform" type="translate" values="-1 0;1 0;-1 0" dur="0.5s" repeatCount="indefinite"/>
+          <rect x="1" y="9" width="2" height="2"/>
+          <rect x="8" y="9" width="2" height="2"/>
+        </g>
+        <g fill="#c97426">
+          <animateTransform attributeName="transform" type="translate" values="1 0;-1 0;1 0" dur="0.5s" repeatCount="indefinite"/>
+          <rect x="4" y="9" width="2" height="2"/>
+          <rect x="11" y="9" width="2" height="2"/>
+        </g>
+        <rect x="0" y="4" width="13" height="6" fill="#f5a25d"/>
+        <rect x="2" y="4" width="1" height="2" fill="#e8913a"/>
+        <rect x="5" y="4" width="1" height="2" fill="#e8913a"/>
+        <rect x="8" y="4" width="1" height="2" fill="#e8913a"/>
+        <rect x="11" y="1" width="6" height="6" fill="#f5a25d"/>
+        <rect x="11" y="0" width="1" height="1" fill="#f5a25d"/>
+        <rect x="16" y="0" width="1" height="1" fill="#f5a25d"/>
+        <rect x="12" y="0" width="1" height="1" fill="#ffb3c1"/>
+        <rect x="15" y="0" width="1" height="1" fill="#ffb3c1"/>
+        <rect x="14" y="3" width="1" height="1" fill="#0d1117"/>
+        <rect x="16" y="3" width="1" height="1" fill="#0d1117"/>
+        <rect x="15" y="5" width="1" height="1" fill="#ff7a93"/>
+        <rect x="3" y="8" width="7" height="2" fill="#ffd9b0"/>
+      </g>
+    </g>
+  </g>
+</svg>
